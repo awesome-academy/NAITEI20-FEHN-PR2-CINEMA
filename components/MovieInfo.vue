@@ -1,5 +1,5 @@
 <template>
-  <div class="grid grid-cols-12 gap-8 p-6 bg-white max-w-[72vw] mx-auto text-[#494949] text-base font-medium">
+  <div class="grid grid-cols-12 gap-8 bg-white mx-auto text-[#494949] text-base font-medium">
     <img :src="movie.poster_url" :alt="movie.title" class="col-span-4 w-110 h-auto rounded-xl" />
     <div class="col-span-5">
       <h1 class="text-3xl font-bold text-primary uppercase mb-6">{{ movie.title }}</h1>
@@ -18,17 +18,17 @@
           </div>
         </div>
         <p>Đạo diễn:
-          <span class="text-primary">{{ movie.directors.join(', ') }}</span>
+          <span class="text-primary">{{ movie.directors.join(", ") }}</span>
         </p>
         <p>Diễn viên:
-          <span class="text-primary">{{ movie.actors.join(', ') }}</span>
+          <span class="text-primary">{{ movie.actors.join(", ") }}</span>
         </p>
         <p>Thể loại:
-          <span class="text-primary">{{ movie.genre.join(', ') }}</span>
+          <span class="text-primary">{{ movie.genre.join(", ") }}</span>
         </p>
         <p>Khởi chiếu: <span>{{ formattedReleaseDate }}</span></p>
         <p>Thời lượng: <span>{{ movie.duration }} phút</span></p>
-        <p>Ngôn ngữ: <span>{{ movie.language.join('/ ') }}</span></p>
+        <p>Ngôn ngữ: <span>{{ movie.language.join("/ ") }}</span></p>
       </div>
 
       <!-- Social Share -->
