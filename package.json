@@ -17,6 +17,7 @@
     "@primevue/forms": "^4.3.2",
     "@tailwindcss/vite": "^4.0.14",
     "date-fns": "^4.1.0",
+    "lucide-vue-next": "^0.483.0",
     "nuxt": "^3.16.0",
     "pinia": "^3.0.1",
     "primeicons": "^7.0.0",
@@ -27,7 +28,7 @@
     "vue3-tooltip": "^2.2.4"
   },
   "devDependencies": {
-    "ts-node": "^10.9.2",
-    "@primevue/nuxt-module": "^4.3.2"
+    "@primevue/nuxt-module": "^4.3.2",
+    "ts-node": "^10.9.2"
   }
 }
