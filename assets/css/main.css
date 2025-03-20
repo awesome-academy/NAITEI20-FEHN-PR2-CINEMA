@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;300;400;500;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;300;400;500;700;900&display=swap");
 @import "tailwindcss";
 
 body {
@@ -13,6 +13,9 @@ body {
   color: var(--color-primary);
 }
 
+.hover\:text-primary:hover {
+  color: var(--color-primary);
+}
 
 .border-primary {
   color: var(--color-primary);
@@ -23,5 +26,9 @@ body {
 }
 
 .hover\:bg-primary:hover {
+  background-color: var(--color-primary) !important;
+}
+
+.group:hover .group-hover\:bg-primary {
   background-color: var(--color-primary) !important;
 }
