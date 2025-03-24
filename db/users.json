@@ -1,32 +1,92 @@
 [
-    {
-        "id": 1,
-        "name": "Francisco Jackson",
-        "email": "user1@gmail.com",
-        "password": "123456",
-        "phone": "(824)676-1053x52727",
-        "date_of_birth": "1964-11-23",
-        "role": "editor",
-        "avatar_url": "https://placeimg.com/482/929/any"
-    },
-    {
-        "id": 2,
-        "name": "Christina Miller",
-        "email": "user2@gmail.com",
-        "password": "123456",
-        "phone": "755-510-1052",
-        "date_of_birth": "1974-04-15",
-        "role": "admin",
-        "avatar_url": "https://dummyimage.com/121x208"
-    },
-    {
-        "id": 3,
-        "name": "Amanda Howard",
-        "email": "user3@gmail.com",
-        "password": "123456",
-        "phone": "416.024.3429",
-        "date_of_birth": "1972-10-22",
-        "role": "user",
-        "avatar_url": "https://placekitten.com/272/222"
-    }
+  {
+    "id": 1,
+    "name": "Nguyễn Văn A",
+    "email": "nguyenvana@example.com",
+    "password": "123456",
+    "phone": "0987654321",
+    "date_of_birth": "1990-05-15",
+    "role": "user",
+    "avatar_url": "/images/user/user-17.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Trần Thị B",
+    "email": "tranthib@example.com",
+    "password": "123456",
+    "phone": "0912345678",
+    "date_of_birth": "1988-10-22",
+    "role": "user",
+    "avatar_url": "/images/user/user-18.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Lê Thị C",
+    "email": "lethic@example.com",
+    "password": "123456",
+    "phone": "0978123456",
+    "date_of_birth": "1995-03-30",
+    "role": "user",
+    "avatar_url": "/images/user/user-19.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Phạm Văn D",
+    "email": "phamvand@example.com",
+    "password": "123456",
+    "phone": "0965432109",
+    "date_of_birth": "1985-12-10",
+    "role": "user",
+    "avatar_url": "/images/user/user-20.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Đỗ Thị E",
+    "email": "dothie@example.com",
+    "password": "123456",
+    "phone": "0932109876",
+    "date_of_birth": "1992-07-25",
+    "role": "user",
+    "avatar_url": "/images/user/user-21.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Hoàng Văn F",
+    "email": "hoangvanf@example.com",
+    "password": "123456",
+    "phone": "0901234567",
+    "date_of_birth": "1989-09-18",
+    "role": "user",
+    "avatar_url": "/images/user/user-22.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Vũ Thị G",
+    "email": "vuthig@example.com",
+    "password": "123456",
+    "phone": "0954321098",
+    "date_of_birth": "1993-04-05",
+    "role": "user",
+    "avatar_url": "/images/user/user-23.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Nguyễn Admin",
+    "email": "admin@cinema.vn",
+    "password": "admin123",
+    "phone": "0909090909",
+    "date_of_birth": "1980-01-01",
+    "role": "admin",
+    "avatar_url": "/images/user/user-24.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Trần Staff",
+    "email": "staff@cinema.vn",
+    "password": "staff123",
+    "phone": "0808080808",
+    "date_of_birth": "1992-06-15",
+    "role": "editor",
+    "avatar_url": "/images/user/user-25.jpg"
+  }
 ]

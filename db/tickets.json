@@ -1,0 +1,176 @@
+[
+  {
+    "id": "TIX-001",
+    "customer": {
+      "id": 1,
+      "name": "Nguyễn Văn A",
+      "email": "nguyenvana@example.com",
+      "avatar": "/images/user/user-17.jpg"
+    },
+    "movie": {
+      "id": 1,
+      "title": "DOMINION OF DARKNESS: NGHI LỄ TRỤC QUỶ",
+      "duration": 96
+    },
+    "theater": {
+      "id": 4,
+      "name": "BHD Star Phạm Hùng"
+    },
+    "showtime_id": 2,
+    "showtime": "2025-03-20T19:30:00",
+    "hall": "Hall 4",
+    "seats": [
+      { "row": "F", "number": "5", "type": "standard" },
+      { "row": "F", "number": "6", "type": "standard" }
+    ],
+    "foods": [
+      {
+        "id": 1,
+        "name": "OL Combo1 - Sweet 22Oz",
+        "price": 80100,
+        "quantity": 1
+      },
+      { "id": 3, "name": "OL HN Combo Aquafina", "price": 45000, "quantity": 2 }
+    ],
+    "status": "Đã thanh toán",
+    "total": 350000,
+    "paymentMethod": "VNPAY",
+    "createdAt": "2025-03-19T12:30:00"
+  },
+  {
+    "id": "TIX-002",
+    "customer": {
+      "id": 2,
+      "name": "Trần Thị B",
+      "email": "tranthib@example.com",
+      "avatar": "/images/user/user-18.jpg"
+    },
+    "movie": {
+      "id": 4,
+      "title": "FORBIDDEN FAIRYTALE: NGHỀ SIÊU KHÓ NÓI",
+      "duration": 102
+    },
+    "theater": {
+      "id": 3,
+      "name": "BHD Star Vincom Quang Trung"
+    },
+    "showtime_id": 5,
+    "showtime": "2025-03-26T19:00:00",
+    "hall": "Hall 1",
+    "seats": [
+      { "row": "H", "number": "10", "type": "standard" },
+      { "row": "H", "number": "11", "type": "standard" },
+      { "row": "H", "number": "12", "type": "standard" }
+    ],
+    "foods": [
+      { "id": 5, "name": "Combo 2 người", "price": 220000, "quantity": 1 }
+    ],
+    "status": "Đang xử lý",
+    "total": 520000,
+    "paymentMethod": "MoMo",
+    "createdAt": "2025-03-24T15:10:00"
+  },
+  {
+    "id": "TIX-003",
+    "customer": {
+      "id": 3,
+      "name": "Lê Thị C",
+      "email": "lethic@example.com",
+      "avatar": "/images/user/user-19.jpg"
+    },
+    "movie": {
+      "id": 1,
+      "title": "DOMINION OF DARKNESS: NGHI LỄ TRỤC QUỶ",
+      "duration": 96
+    },
+    "theater": {
+      "id": 4,
+      "name": "BHD Star Phạm Hùng"
+    },
+    "showtime_id": 3,
+    "showtime": "2025-03-20T16:00:00",
+    "hall": "Hall 5",
+    "seats": [{ "row": "E", "number": "7", "type": "vip" }],
+    "foods": [],
+    "status": "Đã huỷ",
+    "total": 120000,
+    "paymentMethod": "ZaloPay",
+    "createdAt": "2025-03-19T10:45:00"
+  },
+  {
+    "id": "TIX-004",
+    "customer": {
+      "id": 4,
+      "name": "Phạm Văn D",
+      "email": "phamvand@example.com",
+      "avatar": "/images/user/user-20.jpg"
+    },
+    "movie": {
+      "id": 4,
+      "title": "FORBIDDEN FAIRYTALE: NGHỀ SIÊU KHÓ NÓI",
+      "duration": 102
+    },
+    "theater": {
+      "id": 5,
+      "name": "BHD Star Vincom Lê Văn Việt"
+    },
+    "showtime_id": 6,
+    "showtime": "2025-03-25T12:00:00",
+    "hall": "Hall 4",
+    "seats": [
+      { "row": "J", "number": "15", "type": "standard" },
+      { "row": "J", "number": "16", "type": "standard" }
+    ],
+    "foods": [
+      {
+        "id": 1,
+        "name": "OL Combo1 - Sweet 22Oz",
+        "price": 80100,
+        "quantity": 1
+      },
+      { "id": 4, "name": "Nước cam", "price": 55000, "quantity": 2 }
+    ],
+    "status": "Đã thanh toán",
+    "total": 380000,
+    "paymentMethod": "VNPAY",
+    "createdAt": "2025-03-22T09:20:00"
+  },
+  {
+    "id": "TIX-005",
+    "customer": {
+      "id": 1,
+      "name": "Nguyễn Văn A",
+      "email": "nguyenvana@example.com",
+      "avatar": "/images/user/user-17.jpg"
+    },
+    "movie": {
+      "id": 11,
+      "title": "NHÀ GIA TIÊN",
+      "duration": 117
+    },
+    "theater": {
+      "id": 3,
+      "name": "BHD Star Vincom Quang Trung"
+    },
+    "showtime_id": 14,
+    "showtime": "2025-05-05T15:30:00",
+    "hall": "Hall 2",
+    "seats": [
+      { "row": "D", "number": "8", "type": "standard" },
+      { "row": "D", "number": "9", "type": "standard" },
+      { "row": "D", "number": "10", "type": "standard" }
+    ],
+    "foods": [
+      {
+        "id": 1,
+        "name": "OL Combo1 - Sweet 22Oz",
+        "price": 80100,
+        "quantity": 2
+      }
+    ],
+    "status": "Đã thanh toán",
+    "total": 460000,
+    "paymentMethod": "ZaloPay",
+    "createdAt": "2025-05-01T14:25:00"
+  }
+]
