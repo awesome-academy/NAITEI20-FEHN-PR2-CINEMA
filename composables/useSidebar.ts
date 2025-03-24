@@ -101,14 +101,11 @@ export function useSidebarProvider() {
   };
 
   provide(SidebarSymbol, context);
-  console.log("Provided Sidebar Context:", context);
-
   return context;
 }
 
 export function useSidebar(): SidebarContextType {
   const context = inject<SidebarContextType>(SidebarSymbol);
-  console.log("Injected Sidebar Context:", context);
   if (!context) {
     throw new Error(
       "useSidebar must be used within a component that has SidebarProvider as an ancestor"

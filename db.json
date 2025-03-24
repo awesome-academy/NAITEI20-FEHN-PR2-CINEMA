@@ -2,36 +2,95 @@
   "users": [
     {
       "id": 1,
-      "name": "Francisco Jackson",
-      "email": "user1@gmail.com",
+      "name": "Nguyễn Văn A",
+      "email": "nguyenvana@example.com",
       "password": "123456",
-      "phone": "(824)676-1053x52727",
-      "date_of_birth": "1964-11-23",
-      "role": "editor",
-      "avatar_url": "https://placeimg.com/482/929/any"
+      "phone": "0987654321",
+      "date_of_birth": "1990-05-15",
+      "role": "user",
+      "avatar_url": "/images/user/user-17.jpg"
     },
     {
       "id": 2,
-      "name": "Christina Miller",
-      "email": "user2@gmail.com",
+      "name": "Trần Thị B",
+      "email": "tranthib@example.com",
       "password": "123456",
-      "phone": "755-510-1052",
-      "date_of_birth": "1974-04-15",
-      "role": "admin",
-      "avatar_url": "https://dummyimage.com/121x208"
+      "phone": "0912345678",
+      "date_of_birth": "1988-10-22",
+      "role": "user",
+      "avatar_url": "/images/user/user-18.jpg"
     },
     {
       "id": 3,
-      "name": "Amanda Howard",
-      "email": "user3@gmail.com",
+      "name": "Lê Thị C",
+      "email": "lethic@example.com",
       "password": "123456",
-      "phone": "416.024.3429",
-      "date_of_birth": "1972-10-22",
+      "phone": "0978123456",
+      "date_of_birth": "1995-03-30",
       "role": "user",
-      "avatar_url": "https://placekitten.com/272/222"
+      "avatar_url": "/images/user/user-19.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Phạm Văn D",
+      "email": "phamvand@example.com",
+      "password": "123456",
+      "phone": "0965432109",
+      "date_of_birth": "1985-12-10",
+      "role": "user",
+      "avatar_url": "/images/user/user-20.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Đỗ Thị E",
+      "email": "dothie@example.com",
+      "password": "123456",
+      "phone": "0932109876",
+      "date_of_birth": "1992-07-25",
+      "role": "user",
+      "avatar_url": "/images/user/user-21.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Hoàng Văn F",
+      "email": "hoangvanf@example.com",
+      "password": "123456",
+      "phone": "0901234567",
+      "date_of_birth": "1989-09-18",
+      "role": "user",
+      "avatar_url": "/images/user/user-22.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Vũ Thị G",
+      "email": "vuthig@example.com",
+      "password": "123456",
+      "phone": "0954321098",
+      "date_of_birth": "1993-04-05",
+      "role": "user",
+      "avatar_url": "/images/user/user-23.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Nguyễn Admin",
+      "email": "admin@cinema.vn",
+      "password": "admin123",
+      "phone": "0909090909",
+      "date_of_birth": "1980-01-01",
+      "role": "admin",
+      "avatar_url": "/images/user/user-24.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Trần Staff",
+      "email": "staff@cinema.vn",
+      "password": "staff123",
+      "phone": "0808080808",
+      "date_of_birth": "1992-06-15",
+      "role": "editor",
+      "avatar_url": "/images/user/user-25.jpg"
     }
   ],
-
   "movies": [
     {
       "id": 1,
@@ -423,163 +482,183 @@
   "showtimes": [
     {
       "id": 1,
-      "movie_id": 5,
+      "movie_id": 1,
       "cinema_id": 4,
-      "start_time": "2025-04-19 20:30:00",
-      "audio_type": "Dubbed",
-      "hall": "Hall 5"
+      "start_time": "2025-03-20 08:30:00",
+      "audio_type": "Phụ đề",
+      "hall": "Hall 5",
+      "format": "2D"
     },
     {
       "id": 2,
-      "movie_id": 12,
-      "cinema_id": 5,
-      "start_time": "2025-12-09 17:30:00",
-      "audio_type": "Dubbed",
-      "hall": "Hall 4"
+      "movie_id": 1,
+      "cinema_id": 4,
+      "start_time": "2025-03-20 19:30:00",
+      "audio_type": "Phụ đề",
+      "hall": "Hall 4",
+      "format": "2D"
     },
     {
       "id": 3,
-      "movie_id": 15,
-      "cinema_id": 2,
-      "start_time": "2025-05-02 16:00:00",
-      "audio_type": "Original",
-      "hall": "Hall 5"
+      "movie_id": 1,
+      "cinema_id": 4,
+      "start_time": "2025-03-20 16:00:00",
+      "audio_type": "Phụ đề",
+      "hall": "Hall 5",
+      "format": "2D"
     },
     {
       "id": 4,
-      "movie_id": 3,
-      "cinema_id": 5,
-      "start_time": "2025-01-09 14:00:00",
-      "audio_type": "Dubbed",
-      "hall": "Hall 3"
+      "movie_id": 1,
+      "cinema_id": 3,
+      "start_time": "2025-03-20 14:00:00",
+      "audio_type": "Phụ đề",
+      "hall": "Hall 3",
+      "format": "2D"
     },
     {
       "id": 5,
-      "movie_id": 14,
+      "movie_id": 4,
       "cinema_id": 3,
-      "start_time": "2025-08-01 19:00:00",
-      "audio_type": "Dual Audio",
-      "hall": "Hall 1"
+      "start_time": "2025-03-26 19:00:00",
+      "audio_type": "Lồng tiếng",
+      "hall": "Hall 1",
+      "format": "2D"
     },
     {
       "id": 6,
       "movie_id": 4,
       "cinema_id": 5,
-      "start_time": "2025-06-03 12:00:00",
-      "audio_type": "Dubbed",
-      "hall": "Hall 4"
+      "start_time": "2025-03-25 12:00:00",
+      "audio_type": "Phụ đề",
+      "hall": "Hall 4",
+      "format": "2D"
     },
     {
       "id": 7,
       "movie_id": 10,
       "cinema_id": 2,
       "start_time": "2025-07-19 13:30:00",
-      "audio_type": "Original",
-      "hall": "Hall 3"
+      "audio_type": "Phụ đề",
+      "hall": "Hall 3",
+      "format": "2D"
     },
     {
       "id": 8,
       "movie_id": 4,
       "cinema_id": 4,
       "start_time": "2025-06-21 14:30:00",
-      "audio_type": "Dual Audio",
-      "hall": "Hall 2"
+      "audio_type": "Lồng tiếng",
+      "hall": "Hall 2",
+      "format": "2D"
     },
     {
       "id": 9,
-      "movie_id": 2,
+      "movie_id": 9,
       "cinema_id": 4,
       "start_time": "2025-10-11 20:00:00",
-      "audio_type": "Original",
-      "hall": "Hall 4"
+      "audio_type": "Lồng tiếng",
+      "hall": "Hall 4",
+      "format": "2D"
     },
     {
       "id": 10,
-      "movie_id": 3,
+      "movie_id": 8,
       "cinema_id": 1,
       "start_time": "2025-10-13 19:00:00",
-      "audio_type": "Dubbed",
-      "hall": "Hall 3"
+      "audio_type": "Phụ đề",
+      "hall": "Hall 3",
+      "format": "2D"
     },
     {
       "id": 11,
       "movie_id": 6,
       "cinema_id": 2,
       "start_time": "2025-06-14 20:30:00",
-      "audio_type": "Dual Audio",
-      "hall": "Hall 1"
+      "audio_type": "Lồng tiếng",
+      "hall": "Hall 1",
+      "format": "2D"
     },
     {
       "id": 12,
       "movie_id": 3,
       "cinema_id": 1,
       "start_time": "2025-03-07 12:00:00",
-      "audio_type": "Original",
-      "hall": "Hall 1"
+      "audio_type": "Phụ đề",
+      "hall": "Hall 1",
+      "format": "2D"
     },
     {
       "id": 13,
       "movie_id": 1,
       "cinema_id": 2,
       "start_time": "2025-12-06 18:00:00",
-      "audio_type": "Original",
-      "hall": "Hall 2"
+      "audio_type": "Phụ đề",
+      "hall": "Hall 2",
+      "format": "2D"
     },
     {
       "id": 14,
       "movie_id": 11,
       "cinema_id": 3,
       "start_time": "2025-05-05 15:30:00",
-      "audio_type": "Dubbed",
-      "hall": "Hall 2"
+      "audio_type": "Phụ đề",
+      "hall": "Hall 2",
+      "format": "2D"
     },
     {
       "id": 15,
       "movie_id": 2,
       "cinema_id": 3,
       "start_time": "2025-11-17 13:30:00",
-      "audio_type": "Dual Audio",
-      "hall": "Hall 1"
+      "audio_type": "Lồng tiếng",
+      "hall": "Hall 1",
+      "format": "2D"
     },
     {
       "id": 16,
       "movie_id": 7,
       "cinema_id": 3,
       "start_time": "2025-05-24 12:00:00",
-      "audio_type": "Dubbed",
-      "hall": "Hall 1"
+      "audio_type": "Phụ đề",
+      "hall": "Hall 1",
+      "format": "2D"
     },
     {
       "id": 17,
-      "movie_id": 13,
+      "movie_id": 6,
       "cinema_id": 5,
       "start_time": "2025-10-02 11:00:00",
-      "audio_type": "Dual Audio",
-      "hall": "Hall 5"
+      "audio_type": "Lồng tiếng",
+      "hall": "Hall 5",
+      "format": "2D"
     },
     {
       "id": 18,
       "movie_id": 3,
       "cinema_id": 1,
       "start_time": "2025-09-24 19:30:00",
-      "audio_type": "Dual Audio",
-      "hall": "Hall 2"
+      "audio_type": "Lồng tiếng",
+      "hall": "Hall 2",
+      "format": "2D"
     },
     {
       "id": 19,
       "movie_id": 3,
       "cinema_id": 5,
       "start_time": "2025-01-23 16:00:00",
-      "audio_type": "Dubbed",
-      "hall": "Hall 5"
+      "audio_type": "Phụ đề",
+      "hall": "Hall 5",
+      "format": "2D"
     },
     {
       "id": 20,
       "movie_id": 4,
       "cinema_id": 1,
       "start_time": "2025-02-08 17:00:00",
-      "audio_type": "Dual Audio",
-      "hall": "Hall 4"
+      "audio_type": "Lồng tiếng",
+      "hall": "Hall 4",
+      "format": "2D"
     }
   ],
 
@@ -660,6 +739,188 @@
       "title": "Review phim “Linh Miêu: Quỷ Nhập Tràng” – Kỳ bí và cuốn hút từ truyền thuyết dân gian",
       "content": "✨ **Review phim “Linh Miêu: Quỷ Nhập Tràng” – Kỳ bí và cuốn hút từ truyền thuyết dân gian** ✨  \n\n**Đạo diễn:** Lưu Thành Luân  \n**Thể loại:** Kinh dị, Tâm lý, Văn hóa dân gian  \n**Dàn diễn viên:** Hồng Đào, Samuel An, Văn Anh, Thùy Tiên, Thiên An  \n\n“Linh Miêu: Quỷ Nhập Tràng” là một trong những tác phẩm kinh dị Việt Nam đáng chú ý nhất năm nay. Phim khai thác chất liệu truyền thống với câu chuyện bí ẩn về linh miêu – loài mèo gắn liền với hiện tượng “quỷ nhập tràng” ám ảnh trong dân gian.\n\n## Điểm sáng của phim: \n\n🌌 **Không gian văn hóa Huế sống động**  \nPhim tái hiện tinh tế bối cảnh Huế những năm 1960, từ kiến trúc khảm sành, trang phục truyền thống đến lối sống của các gia đình quyền quý.\n\n 🎭 **Diễn xuất nổi bật**  \nHồng Đào (vai Mệ Bích) mang đến hình ảnh người mẹ quyền uy nhưng bị ám ảnh bởi mê tín. Samuel An, Thùy Tiên và Thiên An cũng thể hiện xuất sắc.\n\n 👻 **Kinh dị xen lẫn nhân văn**  \nBộ phim không chỉ gây ám ảnh mà còn lồng ghép các vấn đề xã hội như bất bình đẳng giới và bi kịch gia đình.\n\n🎟 **Điểm: 8.5/10**  \n👉 Hãy đến rạp BHD Star để trải nghiệm ngay!",
       "image_url": "https://www.bhdstar.vn/wp-content/uploads/2024/11/anh-man-hinh-2024-10-31-luc-092827-0925.jpg"
+    }
+  ],
+
+  "tickets": [
+    {
+      "id": "TIX-001",
+      "customer": {
+        "id": 1,
+        "name": "Nguyễn Văn A",
+        "email": "nguyenvana@example.com",
+        "avatar": "/images/user/user-17.jpg"
+      },
+      "movie": {
+        "id": 1,
+        "title": "DOMINION OF DARKNESS: NGHI LỄ TRỤC QUỶ",
+        "duration": 96
+      },
+      "theater": {
+        "id": 4,
+        "name": "BHD Star Phạm Hùng"
+      },
+      "showtime_id": 2,
+      "showtime": "2025-03-20T19:30:00",
+      "hall": "Hall 4",
+      "seats": [
+        { "row": "F", "number": "5", "type": "standard" },
+        { "row": "F", "number": "6", "type": "standard" }
+      ],
+      "foods": [
+        {
+          "id": 1,
+          "name": "OL Combo1 - Sweet 22Oz",
+          "price": 80100,
+          "quantity": 1
+        },
+        {
+          "id": 3,
+          "name": "OL HN Combo Aquafina",
+          "price": 45000,
+          "quantity": 2
+        }
+      ],
+      "status": "Đã thanh toán",
+      "total": 350000,
+      "paymentMethod": "VNPAY",
+      "createdAt": "2025-03-19T12:30:00"
+    },
+    {
+      "id": "TIX-002",
+      "customer": {
+        "id": 2,
+        "name": "Trần Thị B",
+        "email": "tranthib@example.com",
+        "avatar": "/images/user/user-18.jpg"
+      },
+      "movie": {
+        "id": 4,
+        "title": "FORBIDDEN FAIRYTALE: NGHỀ SIÊU KHÓ NÓI",
+        "duration": 102
+      },
+      "theater": {
+        "id": 3,
+        "name": "BHD Star Vincom Quang Trung"
+      },
+      "showtime_id": 5,
+      "showtime": "2025-03-26T19:00:00",
+      "hall": "Hall 1",
+      "seats": [
+        { "row": "H", "number": "10", "type": "standard" },
+        { "row": "H", "number": "11", "type": "standard" },
+        { "row": "H", "number": "12", "type": "standard" }
+      ],
+      "foods": [
+        { "id": 5, "name": "Combo 2 người", "price": 220000, "quantity": 1 }
+      ],
+      "status": "Đang xử lý",
+      "total": 520000,
+      "paymentMethod": "MoMo",
+      "createdAt": "2025-03-24T15:10:00"
+    },
+    {
+      "id": "TIX-003",
+      "customer": {
+        "id": 3,
+        "name": "Lê Thị C",
+        "email": "lethic@example.com",
+        "avatar": "/images/user/user-19.jpg"
+      },
+      "movie": {
+        "id": 1,
+        "title": "DOMINION OF DARKNESS: NGHI LỄ TRỤC QUỶ",
+        "duration": 96
+      },
+      "theater": {
+        "id": 4,
+        "name": "BHD Star Phạm Hùng"
+      },
+      "showtime_id": 3,
+      "showtime": "2025-03-20T16:00:00",
+      "hall": "Hall 5",
+      "seats": [{ "row": "E", "number": "7", "type": "vip" }],
+      "foods": [],
+      "status": "Đã huỷ",
+      "total": 120000,
+      "paymentMethod": "ZaloPay",
+      "createdAt": "2025-03-19T10:45:00"
+    },
+    {
+      "id": "TIX-004",
+      "customer": {
+        "id": 4,
+        "name": "Phạm Văn D",
+        "email": "phamvand@example.com",
+        "avatar": "/images/user/user-20.jpg"
+      },
+      "movie": {
+        "id": 4,
+        "title": "FORBIDDEN FAIRYTALE: NGHỀ SIÊU KHÓ NÓI",
+        "duration": 102
+      },
+      "theater": {
+        "id": 5,
+        "name": "BHD Star Vincom Lê Văn Việt"
+      },
+      "showtime_id": 6,
+      "showtime": "2025-03-25T12:00:00",
+      "hall": "Hall 4",
+      "seats": [
+        { "row": "J", "number": "15", "type": "standard" },
+        { "row": "J", "number": "16", "type": "standard" }
+      ],
+      "foods": [
+        {
+          "id": 1,
+          "name": "OL Combo1 - Sweet 22Oz",
+          "price": 80100,
+          "quantity": 1
+        },
+        { "id": 4, "name": "Nước cam", "price": 55000, "quantity": 2 }
+      ],
+      "status": "Đã thanh toán",
+      "total": 380000,
+      "paymentMethod": "VNPAY",
+      "createdAt": "2025-03-22T09:20:00"
+    },
+    {
+      "id": "TIX-005",
+      "customer": {
+        "id": 1,
+        "name": "Nguyễn Văn A",
+        "email": "nguyenvana@example.com",
+        "avatar": "/images/user/user-17.jpg"
+      },
+      "movie": {
+        "id": 11,
+        "title": "NHÀ GIA TIÊN",
+        "duration": 117
+      },
+      "theater": {
+        "id": 3,
+        "name": "BHD Star Vincom Quang Trung"
+      },
+      "showtime_id": 14,
+      "showtime": "2025-05-05T15:30:00",
+      "hall": "Hall 2",
+      "seats": [
+        { "row": "D", "number": "8", "type": "standard" },
+        { "row": "D", "number": "9", "type": "standard" },
+        { "row": "D", "number": "10", "type": "standard" }
+      ],
+      "foods": [
+        {
+          "id": 1,
+          "name": "OL Combo1 - Sweet 22Oz",
+          "price": 80100,
+          "quantity": 2
+        }
+      ],
+      "status": "Đã thanh toán",
+      "total": 460000,
+      "paymentMethod": "ZaloPay",
+      "createdAt": "2025-05-01T14:25:00"
     }
   ]
 }

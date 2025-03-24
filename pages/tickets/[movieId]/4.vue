@@ -50,7 +50,7 @@ function handlePaymentMethodChange(method) {
   selectedPaymentMethod.value = method;
 }
 
-function processPayment() {
+async function processPayment() {
   const seatsData = checkout.selectedSeats.map((seatId) => {
     const parts = seatId.split("-");
     const row = parts[0];
@@ -65,18 +65,62 @@ function processPayment() {
 
   const foodsData = checkout.selectedFoods.map((food) => ({
     id: food.id,
+    name: food.name,
+    price: food.price,
     quantity: food.quantity,
   }));
 
-  console.log("Checkout data:", {
-    movie: checkout.movieData.id,
+  // Get current user info
+  const userResponse = await fetch("http://localhost:5000/users/1"); // Assuming logged in user
+  const userData = await userResponse.json();
+
+  // Create ticket data
+  const ticketData = {
+    id: `TIX-${Math.floor(Math.random() * 10000)}`, // Generate a random ID
+    customer: {
+      id: userData.id,
+      name: userData.name,
+      email: userData.email,
+      avatar: userData.avatar_url || "/images/user/default-avatar.jpg",
+    },
+    movie: checkout.movieData,
     theater: checkout.theaterData,
+    showtime_id: checkout.showtimeData.id,
+    showtime: checkout.showtimeData.start_time,
+    hall: checkout.showtimeData.hall,
     seats: seatsData,
     foods: foodsData,
+    status: "Đã thanh toán",
     total: checkout.orderTotal,
-  });
+    paymentMethod: selectedPaymentMethod.value,
+    createdAt: new Date().toISOString(),
+  };
 
-  showSuccess.value = true;
+  // Save the ticket
+  try {
+    const response = await fetch("http://localhost:5000/tickets", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(ticketData),
+    });
+
+    if (!response.ok) {
+      throw new Error("Failed to create ticket");
+    }
+
+    // Show success message
+    showSuccess.value = true;
+
+    // Clear checkout data
+    setTimeout(() => {
+      checkout.resetCheckout();
+    }, 2000);
+  } catch (error) {
+    console.error("Error creating ticket:", error);
+    alert("Payment failed. Please try again.");
+  }
 }
 </script>
 
