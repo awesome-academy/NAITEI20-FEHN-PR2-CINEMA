@@ -1,34 +1,34 @@
 <template>
-  <div class="grid grid-cols-12 gap-8 p-6 bg-white max-w-[72vw] mx-auto text-[#494949] text-base font-medium">
-    <img :src="movie.poster_url" :alt="movie.title" class="col-span-4 w-110 h-auto rounded-xl" />
+  <div class="grid grid-cols-12 gap-8 bg-white mx-auto text-[#494949] text-base font-medium">
+    <img :src="movie.poster" :alt="movie.title" class="col-span-4 w-110 h-auto rounded-xl" />
     <div class="col-span-5">
       <h1 class="text-3xl font-bold text-primary uppercase mb-6">{{ movie.title }}</h1>
       <p class="text-gray-700 mt-2">{{ movie.description }}</p>
       <div class="mt-4 space-y-4">
         <p>Phân loại:
-          <span class="px-2 py-1 text-white rounded text-xs" style="background: linear-gradient(0deg, rgb(254, 45, 45) 15%, rgb(107, 0, 62) 100%);">{{ movie.classify }}</span>
+          <span class="px-2 py-1 text-white rounded text-xs" style="background: linear-gradient(0deg, rgb(254, 45, 45) 15%, rgb(107, 0, 62) 100%);">{{ movie.ageLimit }}</span>
         </p>
         <div class="flex gap-2">
           <p>Định dạng:</p>
           <div class="flex gap-2">
-            <span v-for="(format, index) in movie.formats" :key="index"
+            <span v-for="(format, index) in movie.format" :key="index"
                   class="px-1 py-1 bg-green-500 text-white rounded text-xs">
               {{ format }}
             </span>
           </div>
         </div>
         <p>Đạo diễn:
-          <span class="text-primary">{{ movie.directors.join(', ') }}</span>
+          <span class="text-primary">{{ movie.director.join(", ") }}</span>
         </p>
         <p>Diễn viên:
-          <span class="text-primary">{{ movie.actors.join(', ') }}</span>
+          <span class="text-primary">{{ movie.actors.join(", ") }}</span>
         </p>
         <p>Thể loại:
-          <span class="text-primary">{{ movie.genre.join(', ') }}</span>
+          <span class="text-primary">{{ movie.genre }}</span>
         </p>
         <p>Khởi chiếu: <span>{{ formattedReleaseDate }}</span></p>
         <p>Thời lượng: <span>{{ movie.duration }} phút</span></p>
-        <p>Ngôn ngữ: <span>{{ movie.language.join('/ ') }}</span></p>
+        <p>Ngôn ngữ: <span>{{ movie.type }}</span></p>
       </div>
 
       <!-- Social Share -->

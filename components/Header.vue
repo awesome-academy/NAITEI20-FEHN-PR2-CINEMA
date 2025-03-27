@@ -44,17 +44,57 @@
 
       <div class="actions">
         <button class="location">HÀ NỘI ▼</button>
-        <button class="login">Đăng nhập/Đăng ký</button>
+        <!-- Hiển thị Đăng xuất nếu đã đăng nhập -->
+        <template v-if="isLoggedIn">
+          <button class="logout" @click="logout">Đăng xuất</button>
+          <button class="profile" @click="goToProfile(user.id)">
+            <img src="@/assets/images/bhd-logo.png" alt="Profile" class="profile-icon" />
+          </button>
+        </template>
+
+        <!-- Hiển thị Đăng nhập nếu chưa đăng nhập -->
+        <button v-else class="login" @click="router.push('/auth')">Đăng nhập/Đăng ký</button>
       </div>
     </nav>
   </header>
 </template>
 
 <script setup>
-import { computed } from "vue";
-import { useRoute } from "vue-router";
+import { ref, computed, onMounted, onUnmounted } from "vue";
+import { useRoute, useRouter } from "vue-router";
 
 const route = useRoute();
+const router = useRouter();
+
+const isLoggedIn = ref(false);
+
+const checkLoginStatus = () => {
+  if (typeof window !== "undefined") {
+    isLoggedIn.value = localStorage.getItem("user") !== null;
+  }
+};
+
+const logout = () => {
+  if (typeof window !== "undefined") {
+    localStorage.removeItem("user");
+    localStorage.removeItem("userEmail");
+    isLoggedIn.value = false;
+  }
+};
+
+onMounted(() => {
+  checkLoginStatus();
+  window.addEventListener("storage", checkLoginStatus); 
+});
+
+onUnmounted(() => {
+  window.removeEventListener("storage", checkLoginStatus);
+});
+
+const goToProfile = (id) => {
+  if (!id) return;
+  router.push(`/users/${id}`);
+};
 
 // Check if we're on a tickets page
 const isTicketsPage = computed(() => {
@@ -143,6 +183,29 @@ button {
 .login {
   background: #72be43;
   color: white;
+}
+
+.logout {
+  background: black;
+  color: white;
+}
+
+.logout:hover {
+  background: #72be43;
+  color: white;
+}
+
+.profile {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.profile-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
 }
 
 .dropdown {

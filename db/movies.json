@@ -8,10 +8,10 @@
     "director": ["Bobby Prasetyo"],
     "actors": ["Jerome Kurnia", "Lukman Sardi"],
     "genre": "Horror",
-    "releaseDate": "19/03/2025",
+    "release_date": "2019-05-30",
     "duration": 96,
     "ageLimit": "T18",
-    "format": "2D",
+    "format": ["2D","3D"],
     "type": "Phụ đề"
   },
   {
@@ -23,10 +23,10 @@
     "director": ["Kim Dong-Chul"],
     "actors": ["Nam Doh-hyeong", "Choi Han"],
     "genre": "Action",
-    "releaseDate": "21/03/2025",
+    "release_date": "2019-05-30",
     "duration": 85,
     "ageLimit": "T13",
-    "format": "2D",
+    "format": ["2D","3D"],
     "type": "Phụ đề"
   },
   {
@@ -38,10 +38,10 @@
     "director": ["Gints Zilbalodis"],
     "actors": ["Meo Meo", "Gâu Gâu", "Capybara Chuột Lang Nước"],
     "genre": "Family",
-    "releaseDate": "07/03/2025",
+    "release_date": "2019-05-30",
     "duration": 84,
     "ageLimit": "P",
-    "format": "2D",
+    "format": ["2D","3D"],
     "type": "Lồng tiếng"
   },
   {
@@ -53,10 +53,10 @@
     "director": ["Jong-suk Lee"],
     "actors": ["Choi Siwon", "Sung Dong-Il"],
     "genre": "Comedy",
-    "releaseDate": "21/03/2025",
+    "release_date": "2019-05-30",
     "duration": 102,
     "ageLimit": "T18",
-    "format": "2D",
+    "format": ["2D","3D"],
     "type": "Phụ đề"
   },
   {
@@ -68,10 +68,10 @@
     "director": ["Won-sub Choi"],
     "actors": ["Kwon Sang-woo", "Lee Ji-won"],
     "genre": "Comedy",
-    "releaseDate": "14/03/2025",
+    "release_date": "2019-05-30",
     "duration": 107,
     "ageLimit": "T16",
-    "format": "2D",
+    "format": ["2D","3D"],
     "type": "Phụ đề/Lồng tiếng"
   },
   {
@@ -83,10 +83,10 @@
     "director": ["Luis Prieto"],
     "actors": ["Natalia Ahazara", "Javier Gutiérrez"],
     "genre": "Horror",
-    "releaseDate": "21/03/2025",
+    "release_date": "2019-05-30",
     "duration": 89,
     "ageLimit": "T18",
-    "format": "2D",
+    "format": ["2D","3D"],
     "type": "Phụ đề"
   },
   {
@@ -98,10 +98,10 @@
     "director": ["Leo Lewis Liao"],
     "actors": ["Niko Gerentes", "Travis Cloer"],
     "genre": "Family",
-    "releaseDate": "07/03/2025",
+    "release_date": "2019-05-30",
     "duration": 80,
     "ageLimit": "P",
-    "format": "2D",
+    "format": ["2D","3D"],
     "type": "Lồng tiếng"
   },
   {
@@ -113,10 +113,10 @@
     "director": ["Miu-Kei Ho"],
     "actors": ["Sandra Kwan Yue Ng", "Michael Tin Fu Cheung"],
     "genre": "Comedy",
-    "releaseDate": "21/03/2025",
+    "release_date": "2019-05-30",
     "duration": 114,
     "ageLimit": "T16",
-    "format": "2D",
+    "format": ["2D","3D"],
     "type": "Phụ đề/Lồng tiếng"
   },
   {
@@ -128,10 +128,10 @@
     "director": ["Bong Joon Ho"],
     "actors": ["Robert Pattinson", "Naomi Ackie"],
     "genre": "Comedy",
-    "releaseDate": "14/03/2025",
+    "release_date": "2019-05-30",
     "duration": 137,
     "ageLimit": "T18",
-    "format": "2D",
+    "format": ["2D","3D"],
     "type": "Phụ đề"
   },
   {
@@ -143,10 +143,10 @@
     "director": ["Kazuya Tsurumaki"],
     "actors": ["Tomoya Kurosawa", "Yui Ishikawa"],
     "genre": "Animation",
-    "releaseDate": "18/02/2025",
+    "release_date": "2019-05-30",
     "duration": 83,
     "ageLimit": "T13",
-    "format": "2D",
+    "format": ["2D","3D"],
     "type": "Phụ đề"
   },
   {
@@ -163,10 +163,10 @@
       "NSƯT Huỳnh Đông"
     ],
     "genre": "Comedy",
-    "releaseDate": "21/02/2025",
+    "release_date": "2019-05-30",
     "duration": 117,
     "ageLimit": "T18",
-    "format": "2D",
+    "format": ["2D","3D"],
     "type": "Phụ đề"
   },
   {
@@ -178,10 +178,10 @@
     "director": ["Dan Berk", "Robert Olsen"],
     "actors": ["Jack Quaid", "Amber Midthunder"],
     "genre": "Action",
-    "releaseDate": "14/03/2025",
+    "release_date": "2019-05-30",
     "duration": 110,
     "ageLimit": "T18",
-    "format": "2D",
+    "format": ["2D","3D"],
     "type": "Phụ đề"
   },
   {
@@ -201,10 +201,10 @@
       "Thu Trang"
     ],
     "genre": "Comedy",
-    "releaseDate": "29/01/2025",
+    "release_date": "2019-05-30",
     "duration": 100,
     "ageLimit": "T13",
-    "format": "2D",
+    "format": ["2D","3D"],
     "type": "Phụ đề"
   },
   {
@@ -216,10 +216,10 @@
     "director": ["Pom Nguyễn"],
     "actors": ["Vân Dung", "Quang Tuấn", "Khả Như"],
     "genre": "Horror",
-    "releaseDate": "07/03/2025",
+    "release_date": "2019-05-30",
     "duration": 122,
     "ageLimit": "T18",
-    "format": "2D",
+    "format": ["2D","3D"],
     "type": "Phụ đề"
   },
   {
@@ -231,10 +231,10 @@
     "director": ["Marc Webb"],
     "actors": ["Gal Gadot", "Rachel Zegler"],
     "genre": "Family",
-    "releaseDate": "21/03/2025",
+    "release_date": "2019-05-30",
     "duration": 108,
     "ageLimit": "P",
-    "format": "2D",
+    "format": ["2D","3D"],
     "type": "Phụ đề/Lồng tiếng"
   },
   {
@@ -246,10 +246,10 @@
     "director": ["Azhar Kinoi Lubis"],
     "actors": ["Wafda Saifan Lubis", "Taskya Namya"],
     "genre": "Horror",
-    "releaseDate": "28/02/2025",
+    "release_date": "2019-05-30",
     "duration": 97,
     "ageLimit": "T18",
-    "format": "2D",
+    "format": ["2D","3D"],
     "type": "Phụ đề"
   },
   {
@@ -261,10 +261,10 @@
     "director": ["Osgood Perkins"],
     "actors": ["Theo James", "Tatiana Maslany"],
     "genre": "Horror",
-    "releaseDate": "14/03/2025",
+    "release_date": "2019-05-30",
     "duration": 98,
     "ageLimit": "T18",
-    "format": "2D",
+    "format": ["2D","3D"],
     "type": "Phụ đề"
   },
   {
@@ -276,10 +276,10 @@
     "director": ["Hideo Nakata"],
     "actors": ["Nanako Matsushima", "Miki Nakatani"],
     "genre": "Horror",
-    "releaseDate": "21/03/2025",
+    "release_date": "2019-05-30",
     "duration": 95,
     "ageLimit": "T16",
-    "format": "2D",
+    "format": ["2D","3D"],
     "type": "Phụ đề"
   },
   {
@@ -291,10 +291,10 @@
     "director": ["Andrey Korn", "Alex Tsitsilin"],
     "actors": ["Irina Chumantyeva", "Svetlana Kuznetsova"],
     "genre": "Family",
-    "releaseDate": "28/03/2025",
+    "release_date": "2019-05-30",
     "duration": 75,
     "ageLimit": "TBC",
-    "format": "2D",
+    "format": ["2D","3D"],
     "type": "Lồng tiếng"
   },
   {
@@ -306,10 +306,10 @@
     "director": ["Young-jun Kim"],
     "actors": ["Shin Hyun-joon", "Jeong Jun-ho"],
     "genre": "Comedy",
-    "releaseDate": "21/03/2025",
+    "release_date": "2019-05-30",
     "duration": 107,
     "ageLimit": "TBC",
-    "format": "2D",
+    "format": ["2D","3D"],
     "type": "Phụ đề"
   },
   {
@@ -321,10 +321,10 @@
     "director": ["Hoàng Thùy Linh"],
     "actors": ["Hoàng Thùy Linh"],
     "genre": "Musical",
-    "releaseDate": "14/03/2025",
+    "release_date": "2019-05-30",
     "duration": 98,
     "ageLimit": "P",
-    "format": "2D",
+    "format": ["2D","3D"],
     "type": "Phụ đề"
   },
   {
@@ -336,10 +336,10 @@
     "director": ["Cho Young-Myoung"],
     "actors": ["Jung Jinyoung", "Kim Da-Hyun"],
     "genre": "Drama",
-    "releaseDate": "21/03/2025",
+    "release_date": "2019-05-30",
     "duration": 102,
     "ageLimit": "T16",
-    "format": "2D",
+    "format": ["2D","3D"],
     "type": "Phụ đề"
   }
 ]
