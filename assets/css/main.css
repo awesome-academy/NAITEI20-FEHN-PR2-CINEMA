@@ -5,6 +5,34 @@
   --color-primary: #72be43;
 }
 
+:root {
+  --color-primary: #72be43;
+}
+
 body {
   font-family: "Be Vietnam Pro", sans-serif;
+}
+
+.text-primary {
+  color: var(--color-primary);
+}
+
+.hover\:text-primary:hover {
+  color: var(--color-primary);
+}
+
+.border-primary {
+  color: var(--color-primary);
+}
+
+.bg-primary {
+  background-color: var(--color-primary);
+}
+
+.hover\:bg-primary:hover {
+  background-color: var(--color-primary) !important;
+}
+
+.group:hover .group-hover\:bg-primary {
+  background-color: var(--color-primary) !important;
 }

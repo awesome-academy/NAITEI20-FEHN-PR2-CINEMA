@@ -1,5 +1,5 @@
 <template>
-  <div class="container max-w-[72vw] mx-auto p-6">
+  <div class="container mx-auto">
     <h2 class="text-2xl font-bold text-center">
       Lịch chiếu phim rạp {{ cinemaData.name }} tại BHDStar
     </h2>
